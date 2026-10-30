@@ -1,7 +1,7 @@
-# Week 6 SQL Portfolio Project: Retail Sales Performance
+# SQL Portfolio Project: Retail Sales Performance
 
 ## Business scenario
-You are a junior data analyst at a UK retailer. The commercial team wants to understand sales, profitability, customer behaviour, product performance, and sales-channel performance for January–April 2026.
+The commercial team wants to understand sales, profitability, customer behaviour, product performance, and sales-channel performance for January–April 2026.
 
 ## Files and tables
 - `customers.csv` / `customers`: customer location and region
