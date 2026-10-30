@@ -1,6 +1,4 @@
-# Week 6 SQL Business Questions and Interview Practice
-Work through these without looking for solutions first. Save your queries in `Week_6_Answers.sql`.
-Use SQLite syntax unless your SQL environment differs.
+# SQL Business Questions 
 
 ## Part A — Core business analysis (1–10)
 1. What are the total revenue, total units sold, and number of distinct orders?
@@ -38,24 +36,16 @@ Use SQLite syntax unless your SQL environment differs.
 29. Identify the top sales channel by estimated gross profit and quantify the gap between first and second place.
 30. Create a one-row executive summary containing total revenue, gross profit, gross margin %, distinct orders, units sold, and average order value.
 
-## Interview discussion prompts
-A. What is the difference between `WHERE` and `HAVING`? Give an example from this project.
-B. Why can a join between orders and order_items inflate order counts? How do you prevent it?
-C. When would you use `LEFT JOIN` instead of `INNER JOIN`?
-D. What is the difference between revenue and gross profit in this dataset?
-E. How would you investigate a sudden month-over-month revenue drop?
-F. How would you validate that a dashboard number is correct?
-G. Why might a product have high revenue but low profit?
-H. What assumptions and limitations would you state before presenting findings?
-I. Explain a CTE and a window function in plain English.
-J. How would you explain one SQL finding to a non-technical manager?
+## SQL Skills Demonstrated
 
-## Portfolio quality checklist
-- [ ] SQL file runs from top to bottom.
-- [ ] Every metric has a clear definition.
-- [ ] Joins do not double-count orders.
-- [ ] Customers/products with no activity are handled intentionally.
-- [ ] Dates are grouped by year-month.
-- [ ] Results are rounded for presentation, not prematurely in calculations.
-- [ ] Findings include numbers and business implications.
-- [ ] Recommendations follow from the analysis.
+- SELECT, WHERE and ORDER BY
+- INNER JOIN and LEFT JOIN
+- GROUP BY and HAVING
+- Aggregate functions
+- Common Table Expressions (CTEs)
+- Subqueries
+- CASE statements
+- Window functions
+- RANK and DENSE_RANK
+- Revenue and gross profit analysis
+- Customer segmentation
